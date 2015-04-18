@@ -90,8 +90,8 @@ body.mobile > div > div > div:last-of-type
 img
 {
 	width: 30vw;
-	margin-right: 100px;
-	margin-right: 10vw;
+	padding-right: 100px;
+	padding-right: 10vw;
 }
 
 body.mobile img
