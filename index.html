@@ -4,6 +4,21 @@
 	<meta charset="utf-8">
 	<title>Felicia's Hair Studio</title>
 	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready (function ()
+	{
+		if ($(window).width() < $(window).height())
+			$("body").addClass ("mobile");
+	});
+	$(window).resize(function()
+	{
+		if ($(window).width() < $(window).height())
+			$("body").addClass ("mobile");
+		else
+			$("body").removeClass ("mobile");
+	});
+	</script>
 </head>
 <body>
 	<div>
@@ -31,6 +46,7 @@
 					<tr><td>Keratin</td><td>200</td></tr>
 				</table>
 			</div>
+			<span>Design by <a href="http://idioticdev.com">Idiotic</a>.</span>
 		</div>
 	</div>
 </body>
