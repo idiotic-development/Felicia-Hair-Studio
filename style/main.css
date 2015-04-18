@@ -3,6 +3,12 @@ body
 	font-family: OpenSans, sans-serif;
 	color: #666666;
 	margin: 0;
+	font-size: 1vw;
+}
+
+body.mobile
+{
+	font-size: 4vw;
 }
 
 @font-face {
@@ -17,6 +23,7 @@ body
 body > div
 {
 	width: 1000px;
+	width: 75vw;
 	margin: 0 auto;
 	height: 100%;
 }
@@ -24,16 +31,24 @@ body > div
 body.mobile > div
 {
 	width: 550px;
+	width: 95vw;
 }
 
 span
 {
 	position: absolute;
-	bottom: 8px;
+	bottom: 15px;
+	bottom: 1vw;
 	left: 0;
 	font-size: 10px;
+	font-size: 0.7vw;
 	text-align: center;
 	width: 100%;
+}
+
+body.mobile span
+{
+	font-size: 2vw;
 }
 
 span a
@@ -47,7 +62,9 @@ body > div > div
 	position: absolute;
 	height: 100%;
 	width: 900px;
+	width: 65vw;
 	padding: 0 50px;
+	padding: 0 2.5vw;
 }
 
 body > div > div > div
@@ -60,21 +77,26 @@ body.mobile > div > div, body.mobile > div > div > div
 {
 	display: block;
 	width: 450px;
+	width: 90vw;
 	position: relative;
 }
 
-body > div > div > div:last-of-type
+body.mobile > div > div > div:last-of-type
 {
-	padding-bottom: 50px;
+	padding-bottom: 100px;
+	padding-bottom: 20vw;
 }
 
 img
 {
+	width: 30vw;
 	margin-right: 100px;
+	margin-right: 10vw;
 }
 
 body.mobile img
 {
+	width: 80vw;
 	margin-right: 0;
 }
 
@@ -86,7 +108,6 @@ a
 
 a:hover
 {
-	/*border-bottom: 2px dashed #333333;*/
 	color: #777777;
 }
 
@@ -95,6 +116,7 @@ body > div > div > div > div
 	width: 100%;
 	text-align: center;
 	padding: 20px 0;
+	padding: 2vw 0;
 	letter-spacing: 1px;
 }
 
@@ -115,6 +137,7 @@ table
 table h4
 {
 	margin: 10px 0 0 0;
+	margin: 1vw 0 0 0;
 	text-align: center;
 }
 

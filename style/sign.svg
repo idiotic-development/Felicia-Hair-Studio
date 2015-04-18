@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="140.44442"
-     inkscape:cy="160.95886"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="246.7672"
+     inkscape:cy="154.777"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2610,7 +2610,7 @@
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path4864"
-       d="m 90.406489,231.9412 -0.454937,53.81212 7.149944,2.6996 0.708855,-56.30791 z"
+       d="m 92.043515,231.9412 -0.454937,53.81212 5.512918,2.6996 0.708855,-56.30791 z"
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25001696;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        transform="matrix(0.35277777,0,0,0.28435469,-4.0848482,443.72854)"
@@ -4496,8 +4496,8 @@
        preserveAspectRatio="none"
        xlink:href="file:///home/timothy/Projects/Web/Felicia-Hair-Studio/IMG_20150304_140034_1.jpg"
        id="image4845"
-       x="-229.82765"
-       y="161.95615"
+       x="-257.60889"
+       y="162.88219"
        sodipodi:absref="/home/timothy/Projects/Web/Felicia-Hair-Studio/IMG_20150304_140034_1.jpg" />
   </g>
   <path
