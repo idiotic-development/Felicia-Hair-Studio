@@ -126,7 +126,38 @@ hr
 	width: 90%;
 	height: 1px;
 	background-color: #dddddd;
+	color: #aaaaaa;
+	margin: 2vw auto 0.5vw auto;
+}
 
+hr:after
+{
+	content: attr(data-label);
+	position: relative;
+	top: -10px;
+	top: -0.7vw;
+	width: 60px;
+	width: 4vw;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	background-color: #ffffff;
+	letter-spacing: 1px;
+	color: #999999;
+}
+
+h1, h2, h3, h4
+{
+	font-weight: normal;
+	color: #aaaaaa;
+	margin-bottom: -2vw;
+}
+
+body.mobile hr:after
+{
+	top: -2.5vw;
+	left: 33vw;
+	width: 15vw;
 }
 
 table
